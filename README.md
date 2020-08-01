@@ -1,2 +1,3 @@
-# Advaned-Algorithms
-Projects from CPSC 535
+# Best Hashing
+
+Project 2 for Advanced Algorithms
