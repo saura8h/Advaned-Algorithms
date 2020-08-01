@@ -59,7 +59,7 @@ class ItemCollection {
             hash_table4{10, hash_function4},
             hash_table5{10, hash_function5},
             hash_table6{10, hash_function6},
-            hash_table7{10, hash_function7}{ }
+            hash_table7{10, hash_function7}
 
     private:
         // 7 hash tables of size 10 each to store data
