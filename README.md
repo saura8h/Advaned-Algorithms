@@ -59,14 +59,13 @@ This cubby is clearly more organized, which means that the hash table which grou
 
 `gcc --version`
 
-&nbsp;&nbsp;&nbsp;&nbsp;*(Output on Ubuntu 20.04)*:
-
-  ```
-  gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
-  Copyright (C) 2019 Free Software Foundation, Inc.
-  This is free software; see the source for copying conditions.  There is NO
-  warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  ```
+*(Output on Ubuntu 20.04)*:
+```
+gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
 
 `g++ -o output ItemCollection.cpp main.cpp`
 
