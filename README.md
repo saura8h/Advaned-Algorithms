@@ -55,6 +55,39 @@ Cubby 9: 8901234
 The value of `balance` is 1.
 This cubby is clearly more organized, which means that the hash table which groups the glasses based on the second digit of their barcode produces the best hashing.
 
+# Implementation Specifications
+
+ItemCollection.cpp and ItemCollection.hpp contain the skeleton of the classes and function members. The code to decide which digit leads to the most balanced hashtable is to be implemented in class `ItemCollection.cpp`. 
+This class has seven hash tables as its member variables and also contains the below member functions:
+
+  + `addItem()`: Creates an *Item* object and inserts them into all seven hashtables. Each hash table has the *barcode* as the key and the *Item* object as value
+  
+  + `removeItem()`: Removes a pair of glasses from each hashtable, corresponding to the given product number
+
+  + `bestHashing()`: Computes best hashing for each of the seven hashtables, and then identifies the hashtable with the best balance
+  
+  + `readTextfile()`: The list of pairs of glasses are in a text file. This method calls addItem() for each line.
+The code to read from the text file is already given.
+
+
+he seven hashtables will differ in only the hash function that they will use. You are to provide code for
+these hash functions. Each hash function will take a 7-digit number and return either the first, second, ...,
+seventh (last) digit.
+
+hashfct1(number): return the first digit of number. To be completed.
+hashfct2(number): return the second digit of number. To be completed.
+hashfct3(number): return the third digit of number. To be completed.
+hashfct4(number): return the fourth digit of number. To be completed.
+hashfct5(number): return the fifth digit of number. To be completed.
+hashfct6(number): return the fourth digit of number. To be completed.
+hashfct7(number): return the fifth digit of number. To be completed.
+main.cpp: This is provided for you to use to test your software as you are writing it. You may change
+this file to add helpful functions for your own testing. I will test your project with a different but
+similar file.
+README.md: You must edit this file to include your name and CSUF email. This information will
+be used so that we can enter your grades into Titanium. To be completed.
+
+
 # Execution and Functionality Test
 
 `gcc --version`
