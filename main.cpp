@@ -5,8 +5,13 @@
 // Helper Class Definitions
 struct AssertEquals {
     template <typename T, typename U>
-    void operator() ( const std::string & test_name, const T & expected, const U & actual, bool equality_test = true ) {
-
+    void operator() ( 
+    	const std::string & test_name, 
+    	const T & expected, 
+    	const U & actual, 
+    	bool equality_test = true 
+    ) 
+    {
         if( (actual == expected)  ==  equality_test ) {
             std::cout << "[PASSED] " << test_name << ": ";
             std::cout << "Expected " << expected << " and received: " << actual << '\n';
