@@ -21,9 +21,8 @@ struct AssertEquals {
 
 
 int main() {
-    AssertEquals assertEquals;
+    AssertEquals assertEquals;		// test hash functions
 
-    // test hash functions
     assertEquals( "hash_function1(1234567)", 1U, hash_function1(1234567U) );
     assertEquals( "hash_function2(1234567)", 2U, hash_function2(1234567U) );
     assertEquals( "hash_function3(1234567)", 3U, hash_function3(1234567U) );
